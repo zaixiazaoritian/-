@@ -1,0 +1,7 @@
+生成表格HTML
+(tr>td*10+td[v-if=middle]*5+td[v-if=large]*5)*10+(tr[v-if=middle]>td*10+td*5+td[v-if=large]*5)*5+(tr[v-if=large]>td*10+td*5+td*5)*5
+(tr>td{{{num}}}*10+td[v-if=middle]{{{num}}}*5+td[v-if=large]{{{num}}}*5)*10+(tr[v-if=middle]>td{{{num}}}*15+td[v-if=large]{{{num}}}*5)*5+(tr[v-if=large]>td{{{num}}}*20)*5
+ v-for="n in 20" ref="n"
+ td-small[ref="c$@21"]*10+td-middle[ref="c$@31"]*5+td-large[ref="c$@36"]*5
+
+

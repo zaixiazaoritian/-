@@ -1,0 +1,85 @@
+﻿/*重置浏览器*/
+*{padding:0; margin:0;word-spacing: 0px;letter-spacing: 0px;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;}
+/*table{border-collapse: collapse;}*/
+input,textarea{outline: nonere;resize: none;}
+
+/*公共类*/
+strong{
+    font-size: 30px;
+}
+.computer{
+    margin-left: 570px;
+}
+.td{
+    display:inline-block;
+    text-align: center;
+    /*flex-grow:400;*/flex: 1;
+    margin-right:4px;
+    background-size: 100%;
+}
+.tr{
+    word-spacing: -10px;
+    /*flex-grow:400;*/flex: 1;
+    display:flex;
+    flex-wrap: nowrap;
+    margin-bottom: 4px;
+}
+.cursor{
+    cursor: pointer;
+}
+
+/*内容*/
+body{background-color: red;}
+#wrap{display: block; width: 740px; background-color: blue; padding: 30px; margin: 40px auto;} 
+
+#section{
+    width: 500px; height: 500px;
+    margin-right: 30px;
+    float: left;
+    overflow: hidden;
+}
+#aside{
+    height: 500px;
+}
+
+#fieldset{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+#button{
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+#table{
+    width: 496px;
+    height: 496px;
+    padding-top: 4px;
+    padding-left: 4px;
+    background-color: rgb(255, 0, 0);
+    display:inline-flex;
+    flex-direction: column;
+}
+#win{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(116, 131, 105, 0.452);
+    position: absolute;
+    left: 305px;
+    top: 70px;
+}
+#win_text{
+    display: inline-block;
+    width: 270px;
+    height: 70px;
+    margin-top: 170px;
+    padding-top: 40px;
+    background-color: blue;
+}
