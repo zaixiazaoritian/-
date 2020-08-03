@@ -76,6 +76,7 @@ body{background-color: red;}
     top: 70px;
 }
 #win_text{
+    font-size: 20px;
     display: inline-block;
     width: 270px;
     height: 70px;

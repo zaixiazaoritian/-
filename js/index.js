@@ -141,6 +141,7 @@ var vm = new Vue({
                 this.time=0;
                 this.complete=0;
                 this.display=false;
+                this.result="loading...";
             }
             //初始化
             if("初级"==this.$data.difficulty){
